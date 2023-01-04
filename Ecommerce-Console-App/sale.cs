@@ -1,13 +1,13 @@
 namespace Ecommerce_Console_App;
 
-public interface sale
+public interface ISale
 {
     string User{ get; set; }
     string Product { get; set; }
     string Date { get; set; }
 }
 
-class Sale : sale
+class Sale : ISale
 {
     private string user = "";
     private string product = "";
