@@ -17,14 +17,16 @@ namespace Ecommerce_Console_App
             
         }
         */
-
+        
         /*
-        Sale UpdateSales()
+        Sale UpdateSales(User person, Product item)
         {
-            
+            Sale log = new Sale();
+            log.User = person.FirstName + person.LastName;
+            log.Product.name
         }
         */
-        
+
         /*
         static void Main()
         {

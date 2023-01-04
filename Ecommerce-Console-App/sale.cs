@@ -9,9 +9,9 @@ public interface sale
 
 class Sale : sale
 {
-    private string user;
-    private string product;
-    private string date;
+    private string user = "";
+    private string product = "";
+    private string date = "";
     public string User { get; set; }
     public string Product { get; set; }
     public string Date { get; set; }
