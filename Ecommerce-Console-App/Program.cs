@@ -4,12 +4,19 @@ namespace Ecommerce_Console_App
 {
     class Program
     {
-        /*
-        User GetUserInfo()
+        
+        static User GetUserInfo()
         {
-            
+            Console.WriteLine("Please enter first name: ");
+            string first = Console.ReadLine();
+            Console.WriteLine("Please enter last name: ");
+            string last = Console.ReadLine();
+            Console.WriteLine("Please enter location: ");
+            string loc = Console.ReadLine();
+
+            return new User(first, last, loc);
         }
-        */
+        
 
         /*
         Product GetUserProduct()
@@ -27,14 +34,11 @@ namespace Ecommerce_Console_App
         }
         */
 
-        /*
-        static void Main()
+        
+        static void Main(String[] args)
         {
-            Sale log = new Sale()
-            {
-
-            };
+            User temp = GetUserInfo();
         }
-        */
+        
     }
 }

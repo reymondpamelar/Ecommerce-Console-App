@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{EAD52DE6-43A8-44BC-8378-819C485AD26D}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Ecommerce-Console-App/Program.cs">
+    <Files>
+      <File FileName="Ecommerce-Console-App/User.cs" />
+      <File FileName="Ecommerce-Console-App/sale.cs" />
+      <File FileName="Ecommerce-Console-App/Program.cs" Line="45" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Ecommerce-Console-App" expanded="True">
+            <Node name="Ecommerce-Console-App" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Ecommerce-Console-App PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
